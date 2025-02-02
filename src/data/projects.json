@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Personal Portfolio Website",
+    "imageSrc": "projects/Dashboard.png",
+    "description": "A responsive personal portfolio website to showcase my projects and skills.",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+    "demo": "https://www.example.com/portfolio",
+    "source": "https://www.github.com/my-portfolio"
+  },
+
+  {
+    "title": "Task Management App",
+    "imageSrc": "projects/Device.jpg",
+    "description": "A simple task management application to help users organize their tasks.",
+    "skills": ["React", "Node.js", "MongoDB"],
+    "demo": "https://www.example.com/task-manager",
+    "source": "https://www.github.com/task-manager"
+  },
+
+
+  {
+    "title": "E-commerce Product Page",
+    "imageSrc": "projects/Premium.jpeg",
+    "description": "A product page for an e-commerce site featuring product details and reviews.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://www.example.com/ecommerce-product",
+    "source": "https://www.github.com/ecommerce-product"
+  }
+
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "role": "Marketing Coordinator ",
+    "organisation": "Creative Agency",
+    "startDate": "Jan 2023",
+    "endDate": "Present",
+    "experiences": ["Developed and executed social media campaigns that increased engagement by 40%", "Collaborated with the design team to create marketing materials for various campaigns."],
+    "imageSrc": "history/creative.png"
+  },
+  {
+    "role": "Graphic Designer",
+    "organisation": "Design Studio",
+    "startDate": "Dec 2022",
+    "endDate": "May 2021",
+    "experiences": ["Designed promotional graphics for online and offline marketing efforts.", "Worked on branding projects that enhanced client visibility and market presence."],
+    "imageSrc": "history/design.png"
+  },
+  {
+    "role": "Marketing Intern",
+    "organisation": "Trendy Brands",
+    "startDate": "Apr, 2020",
+    "endDate": "Apr, 2021",
+    "experiences": ["Assisted in creating content for social media platforms, leading to a 25% increase in followers.", "Conducted market research to support campaign strategies and improve brand positioning."],
+    "imageSrc": "history/trendy.png"
+  }
+]

@@ -1,30 +1,26 @@
 [
   {
-    "title": "Personal Portfolio Website",
-    "imageSrc": "projects/Dashboard.png",
-    "description": "A responsive personal portfolio website to showcase my projects and skills.",
-    "skills": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
-    "demo": "https://www.example.com/portfolio",
-    "source": "https://www.github.com/my-portfolio"
-  },
-
-  {
-    "title": "Task Management App",
-    "imageSrc": "projects/Device.jpg",
-    "description": "A simple task management application to help users organize their tasks.",
-    "skills": ["React", "Node.js", "MongoDB"],
-    "demo": "https://www.example.com/task-manager",
-    "source": "https://www.github.com/task-manager"
-  },
-
-
-  {
     "title": "Virutal R",
     "imageSrc": "projects/Premium.jpeg",
     "description": "Virtual Build tools for developers",
-    "skills": ["HTML", "CSS", "JavaScript"],
+    "skills": ["HTML", "CSS", "JavaScript","React", "Tailwind CSS"],
     "demo": "https://virtual-r-zj75-qobui7xd9-sarojs-projects-58002859.vercel.app/",
     "source": "https://github.com/krrazyqwerty/virtual-R"
+  },
+  {
+    "title": "Dashain Family",
+    "imageSrc": "projects/Device.jpg",
+    "description": "A simple family group to upload picture and memories.",
+    "skills": ["React", "Node.js", "MongoDB"],
+    "demo": "https://dashain-frontend-r14ht92of-sarojs-projects-58002859.vercel.app",
+    "source": "https://github.com/krrazyqwerty/dashain_frontend"
+  },
+  {
+    "title": "Movie list",
+    "imageSrc": "projects/Dashboard.png",
+    "description": "A responsive personalised movie list to keep a track your watched and unwathed movies and series.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://movie-list-ogei8mwdz-sarojs-projects-58002859.vercel.app",
+    "source": "https://github.com/krrazyqwerty/MovieList"
   }
-
 ]

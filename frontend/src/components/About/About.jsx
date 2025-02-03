@@ -1,17 +1,14 @@
 import React, { useEffect, useState } from "react";
 import styles from "./About.module.css";
 
-import aboutImage from "../../assets/about/aboutImage.jpg";
-import cursorIcon from "../../assets/about/cursorIcon.png";
-import serverIcon from "../../assets/about/serverIcon.png";
-import uiIcon from "../../assets/about/uiIcon.png"
-import Up from "../../assets/about/Up.png"
+import picture1 from "../../assets/about/picture1.jpeg";
+import Up from "../../assets/about/Up.png";
 
 export const About = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const handleScroll = () => {
-    if (window.scrollY > 100) { // Adjust the scroll threshold as needed
+    if (window.scrollY > 100) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
@@ -27,53 +24,21 @@ export const About = () => {
 
   return (
     <section className={styles.container} id="about">
+      <h1>About Me</h1>
       <div className={styles.content}>
-        
         <img
-          src={aboutImage}
-          alt="wroking on laptop"
+          src={picture1}
+          alt="picture"
           className={styles.aboutImage}
         />
-        <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
-            <img src={cursorIcon} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites.
-              </p>
+              <h2>I am a dedicated and versatile Full Stack Developer with a passion for creating efficient and user-friendly web applications. With 1 years of professional experience, I have worked with a variety of technologies, including <span>React</span>, <span>Node.js,</span> and <span>MongoDB</span>. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.</h2>
             </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={serverIcon} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>
-                I have experience developing fast and optimized back-end systems
-                and APIs.
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={uiIcon} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
-              <p>
-                I have designed multiple landing pages and have created design
-                systems as well.
-              </p>
-            </div>
-          </li>
-        </ul>
       </div>
 
       {isVisible && (
         <a href="#" className={styles.scrollToHeroBtn}>
-          <img
-            src={Up}
-            alt="up arrow"
-          />
+          <img src={Up} alt="up arrow" />
         </a>
       )}
     </section>

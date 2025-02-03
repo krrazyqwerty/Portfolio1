@@ -2,46 +2,32 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
-  margin-left: -30%;
-  margin-right: 10%;
+  margin-top: 5px;
+  margin-left: -20%;
 }
 
-.title {
-  color: var(--color-text);
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
-}
-
-
-.content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 7px;
-}
 
 .history {
-  width: 70%; /* Increased width from 50% to 70% */
+  width: 100%; 
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
+  padding: 15px;
+  text-align: justify;
 }
 
 .historyItem {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 17px;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  gap: 25px;
+  background: #19376d;
   border-radius: 10px;
   padding: 24px;
 }
 
 .historyItem img {
-  width: 120px;
+  width: 170px;
 }
 
 .historyItemDetails {
@@ -49,7 +35,7 @@
 }
 
 .historyItemDetails h1 {
-  font-size: 38px;
+  font-size: 45px;
   font-weight: 500;
   background: linear-gradient(90deg, #ef4116, #ea980a); 
   background-clip: text;
@@ -79,17 +65,19 @@
   .content {
     flex-direction: column;
     align-items: center;
-    gap: 34px;
+    gap: 25px;
   }
-
+ 
   .skills {
     width: 100%;
     flex-direction: row;
     justify-content: center;
+    margin-left: 25%;
   }
 
   .history {
-    width: 100%; /* Ensures full width on smaller screens */
+    width: 90%; 
     gap: 9px;
+    margin-left: 13%;
   }
 }

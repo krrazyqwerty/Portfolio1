@@ -15,6 +15,7 @@ export const Hero = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Saroj Maharjan</h1>
+        <h3 >Full Stack Developer</h3>
         <p className={styles.description}>
           I have just started my journey as a Junior Full-stack developer, eager to learn and grow in this exciting field. I am committed to building efficient and scalable web applications.
         </p>

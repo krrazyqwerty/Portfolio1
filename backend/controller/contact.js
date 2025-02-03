@@ -18,8 +18,8 @@ const sendEmail = expressAsyncHandler(async (req, res) => {
   console.log(email, name, number, message);
 
   var mailOptions = {
-    from: email,
-    to: process.env.SMTP_MAIL,
+    from: process.env.SMTP_MAIL,
+    to: email,
     subject: "Inquiry Mail from" + name,
     text: 
     `

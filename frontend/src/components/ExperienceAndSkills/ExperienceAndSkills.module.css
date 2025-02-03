@@ -1,0 +1,12 @@
+.container {
+    padding: 20px; /* Optional: Add some padding */
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%; /* Each column takes half of the screen */
+    padding: 10px; /* Optional: Add some padding */
+  }

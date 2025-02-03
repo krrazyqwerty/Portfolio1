@@ -1,0 +1,34 @@
+[
+  {
+    "role": "Catering Supervisor",
+    "organisation": "Oman LNG",
+    "startDate": "Dec 2017",
+    "endDate": "Sept 2019",
+    "experiences": ["Checked and maintained the quality of received goods and ensured that they are stored properly.", "Ensured that the food is prepared and served in a timely manner.", "Ensured that the kitchen and dining area are clean and hygienic."],
+    "imageSrc": "history/OmanLogo.png"
+  },
+  {
+    "role": "Sr. Technical Assistant",
+    "organisation": "Kuwait Oil Company",
+    "startDate": "Jun 2014",
+    "endDate": "Sept 2016",
+    "experiences": [" Providing on field technical support on the success completion of projects as per quality requirement, on time and within budget", "Plan and coordinate procurements in line with approved specifications or BoQ, working in close coordination with the procurement and logistics unit to ensure that the required materials and items are procured and delivered to the respective sites in a timely manner."],
+    "imageSrc": "history/kocLogo.svg"
+  },
+  {
+    "role": "Technical Assistant",
+    "organisation": "Kuwait Oil Company",
+    "startDate": "May 2012",
+    "endDate": "May 2014",
+    "experiences": ["Attended meeting to capture minutes of the meeting.", "Assisted in preparing reports and presentations for the team.","Kept track of the team's progress and reported to the team leader and kept attendance."],
+    "imageSrc": "history/kocLogo.svg"
+  },
+  {
+    "role": "Asst. Diesel Mechanic",
+    "organisation": "Kuwait Oil Company",
+    "startDate": "Jun 2010",
+    "endDate": "Apr, 2012",
+    "experiences": ["Assisted in repairing, conditioning and monitoring of all Diesel realted vehicles in the designated area.", "Conducted minor spare parts replacements and major replacement were always conducted under supervision."],
+    "imageSrc": "history/kocLogo.svg"
+  }
+]

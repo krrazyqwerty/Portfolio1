@@ -1,66 +1,68 @@
 @import "../../vars.css";
 
 .contactContainer {
-    align-items: center;
-    max-width: 600px;
-    margin: 50px auto 0;
-    padding: 20px;
-    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  max-width: 50%;
+  margin: 50px auto 0;
+  padding: 40px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.contactContainer h2 {
-    text-align: center;
-    font-size: 2rem;
-    color: var(--color-text);
-    margin-bottom: 20px;
+.contactContainer h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-text);
+  margin-bottom: 20px;
 }
 
 .contactForm {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .formGroup {
-    margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .formGroup input,
 .formGroup textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid var(--color-secondary);
-    border-radius: 5px;
-    background-color: var(--color-dark);
-    color: var(--color-text);
-    transition: border-color 0.3s ease, background-color 0.3s ease; /* Added transition */
+  width: 100%;
+  padding: 20px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 5px;
+  background-color: var(--color-dark);
+  color: var(--color-text);
+  font-size: larger;
+  transition: border-color 0.3s ease, background-color 0.3s ease; 
 }
 
 .formGroup input:hover,
 .formGroup textarea:hover {
-    border-color: var(--color-primary); /* Change border color on hover */
-    background-color: rgba(255, 255, 255, 0.1); /* Lighten background on hover */
+  border-color: var(--color-primary); 
+  background-color: rgba(255, 255, 255, 0.1); 
 }
 
 .submitButton {
-    padding: 10px 20px;
-    background-color: var(--color-primary);
-    color: var(--color-text);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transition */
+  padding: 10px 20px;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  font-size: larger;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
 }
 
 .submitButton:hover {
-    background-color: var(--color-secondary);
-    transform: scale(1.05); /* Slightly enlarge button on hover */
+  background-color: var(--color-secondary);
+  transform: scale(1.05); /* Slightly enlarge button on hover */
 }
 
 .formGroup input::placeholder,
 .formGroup textarea::placeholder {
-    padding: 2px;
-    color: rgba(255, 255, 255, 0.7); 
+  /* padding: 2px; */
+  color: rgba(255, 255, 255, 0.794);
 }
-

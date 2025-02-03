@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
+import menuIcon from "../../assets/nav/menuIcon.png";
+import closeIcon from "../../assets/nav/closeIcon.png";
+import logos from "../../assets/nav/Logos.svg";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const menuIcon = "/assets/nav/menuIcon.png";
-  const closeIcon = "/assets/nav/closeIcon.png";
-  const logo = "/assets/nav/Logos.svg";
-
-  return (
+   return (
     <nav className={styles.navbar}>
-      <img src={logo} alt="Logo" className={styles.logo} />
+      <img src={logos} alt="logo icon" className={styles.logo} />
 
       <div className={styles.menu}>
         <button

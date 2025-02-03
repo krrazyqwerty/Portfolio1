@@ -36,19 +36,19 @@ export const Socials = () => {
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={emailIcon} alt="Email icon" className={styles.icon} />
-          <a href="mailto:19m89saroj@gmail.com">19m89saroj@gmail.com</a>
+          <a target="_blank" rel="noopener noreferrer" href="mailto:19m89saroj@gmail.com">19m89saroj@gmail.com</a>
         </li>
 
         <li className={styles.link}>
           <img src={linkedinIcon} alt="LinkedIn icon" className={styles.icon} />
-          <a href="https://www.linkedin.com/in/saroj-maharjan-a51236190/">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/saroj-maharjan-a51236190/">
             linkedin.com/in/saroj-maharjan
           </a>
         </li>
 
         <li className={styles.link}>
           <img src={githubIcon} alt="Github icon" className={styles.icon} />
-          <a href="https://github.com/krrazyqwerty">github.com/krrazyqwerty</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/krrazyqwerty">github.com/krrazyqwerty</a>
         </li>
       </ul>
     </footer>

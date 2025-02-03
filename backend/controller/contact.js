@@ -6,10 +6,10 @@ dotenv.config();
 let transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST,
   port: process.env.SMTP_PORT,
-  secure: false, // true for 465, false for other ports
+  secure: false, 
   auth: {
-    user: process.env.SMTP_MAIL, // generated ethereal user
-    pass: process.env.SMTP_PASSWORD, // generated ethereal password
+    user: process.env.SMTP_MAIL, 
+    pass: process.env.SMTP_PASSWORD, 
   },
 });
 
@@ -23,7 +23,7 @@ const sendEmail = expressAsyncHandler(async (req, res) => {
     subject: "Inquiry Mail from" + name,
     text: 
     `
-    Name :${name} 
+    Name : ${name.split(' ').map(word =>word.charAt(0).toUpperCase() + word.slice(1)).join(' ')} 
     Email : ${email}
     Number : ${number}
     Message : ${message}

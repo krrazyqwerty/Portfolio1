@@ -19,12 +19,12 @@
 
 
   {
-    "title": "E-commerce Product Page",
+    "title": "Virutal R",
     "imageSrc": "projects/Premium.jpeg",
-    "description": "A product page for an e-commerce site featuring product details and reviews.",
+    "description": "Virtual Build tools for developers",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "demo": "https://www.example.com/ecommerce-product",
-    "source": "https://www.github.com/ecommerce-product"
+    "demo": "https://virtual-r-zj75-qobui7xd9-sarojs-projects-58002859.vercel.app/",
+    "source": "https://github.com/krrazyqwerty/virtual-R"
   }
 
 ]
